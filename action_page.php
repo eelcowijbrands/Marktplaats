@@ -3,20 +3,16 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>action_page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
 </head>
 <body>
     <form>
-        <fieldset>
-        	<legend>Sign In</legend>
-            <label for="user-name">Username:</label>
-        	<input type="text" name="username" id="user-name">
-            <label for="user-pwd">Password:</label>
-        	<input type="password" name="user-password" id="user-pwd">
-        </fieldset>
+        Email: <?php echo $_POST["email"]; ?><br><br>
+        Password: <?php echo $_POST["psw"]; ?><br><br>
+        Password repeat: <?php echo $_POST["psw-repeat"]; ?><br><br>
     </form>
 </body>
 </html>
