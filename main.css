@@ -1,0 +1,25 @@
+.flex-container {
+	width: 20%;
+    min-height: 300px;
+    margin: 0;
+	font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid #666;
+    background: #e2954d
+}
+
+.flex-container div {
+	padding: 10px;
+	flex: 1;
+}
+.item1 {
+	
+}
+.item2 {
+	
+}
+.item3 {
+	
+}
